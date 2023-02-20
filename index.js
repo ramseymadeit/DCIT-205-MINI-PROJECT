@@ -54,7 +54,6 @@ router.post("/add", async (req, res) => {
 //Running application at localhost:2000
 router.listen(PORT, function (){
     console.log("router is running on port 2000")
-    
-    
+
     
 })
