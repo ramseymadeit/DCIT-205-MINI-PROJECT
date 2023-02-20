@@ -17,7 +17,7 @@ catch(
         console.log("Database connection error!")
     }
 )
-
+mongoose.set('strictQuery', false);
 //Get user data from database
 router.get('/users', async (req, res) => {
     try{
